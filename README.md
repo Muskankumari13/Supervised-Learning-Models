@@ -47,18 +47,18 @@ The objective of this project is to build, train, and evaluate multiple supervis
 ---
 
 ## Results
-| Model                   | Accuracy |
-|--------------------------|----------|
-| Logistic Regression      | 0.80     |
-| KNN                      | 0.78     |
-| SVM                      | 0.79     |
-| Decision Tree            | 0.76     |
-| Random Forest            | 0.81     |
-| Gradient Boosting        | 0.82     |
-| XGBoost                  | 0.83     |
-| LightGBM                 | 0.84     |
+| Model                                | Accuracy |
+|--------------------------------------|----------|
+| Decision Tree Classifier             | 0.826389 |
+| LightGBM (Light Gradient Boosting)   | 0.819444 |
+| XGBoost (Extreme Gradient Boosting)  | 0.819444 |
+| Gradient Boosting Classifier         | 0.812500 |
+| Support Vector Machine (SVM)         | 0.805556 |
+| Random Forest Classifier             | 0.805556 |
+| KNN (K-Nearest Neighbor)             | 0.798611 |
+| Logistic Regression                  | 0.777778 |
 
-The LightGBM Classifier achieved the highest accuracy among all implemented models.
+The **Decision Tree Classifier** achieved the highest accuracy among the tested models, closely followed by LightGBM and XGBoost.
 
 ---
 
